@@ -1,6 +1,6 @@
 <?php
 
-namespace mrkody\cdek;
+namespace Errogaht\CDEK;
 
 /**
  * Расчёт стоимости доставки СДЭК

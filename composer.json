@@ -1,5 +1,5 @@
 {
-  "name": "mrkody/cdek",
+  "name": "errogaht/cdek",
   "description": "Inegration (SDK) with CDEK API on PHP",
   "keywords": [
     "cdek",
@@ -14,16 +14,20 @@
     {
       "name": "mr_kody",
       "email": "kody1994@mail.ru"
+    },
+    {
+      "name": "Alex Teterin",
+      "email": "7018407@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "mrkody\\cdek\\": ""
+      "Errogaht\\CDEK\\": ""
     }
   },
   "require": {
-    "php": ">=5.3.0",
-    "guzzle/guzzle": "3.9.*@dev",
-    "openlss/lib-array2xml": "0.0.9"
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.2.0",
+    "openlss/lib-array2xml": "0.5.*"
   }
 }
